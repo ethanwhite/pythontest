@@ -12,3 +12,5 @@ jobs:
     steps:
       - name: Show python
         run: python3 --version
+      - name: Install deepforest
+        run: pip3 install git+https://github.com/weecology/DeepForest/
