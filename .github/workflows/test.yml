@@ -7,8 +7,6 @@ on:
 jobs:
   ci:
     runs-on: "ubuntu-24.04"
-    # use bash everywhere
-
     steps:
       - name: Show python
         run: python3 --version
