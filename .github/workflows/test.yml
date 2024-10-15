@@ -11,4 +11,4 @@ jobs:
 
     steps:
       - name: Show python
-        run: python3 -v
+        run: python3 --version
